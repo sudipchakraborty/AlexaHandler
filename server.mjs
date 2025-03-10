@@ -115,7 +115,7 @@ const skill = SkillBuilders.custom()
  */
 app.post("/api/v1/webhook-alexa", async (req, res) => 
 {
-    // console.log("🔹 Received Alexa Request:", JSON.stringify(req.body, null, 2));
+     console.log("🔹 Received Alexa Request:", JSON.stringify(req.body, null, 2));
     res.setHeader("Content-Type", "application/json");
 
     try 
